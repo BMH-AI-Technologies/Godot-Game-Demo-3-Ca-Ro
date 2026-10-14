@@ -1,0 +1,202 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/entities/tile.tscn" id="1"]
+
+[node name="Floor" type="Node2D"]
+z_index = 0
+
+[node name="Tile_0_0" parent="." instance=ExtResource("1")]
+position = Vector2(0, 0)
+
+[node name="Tile_1_0" parent="." instance=ExtResource("1")]
+position = Vector2(70, 0)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_2_0" parent="." instance=ExtResource("1")]
+position = Vector2(140, 0)
+
+[node name="Tile_3_0" parent="." instance=ExtResource("1")]
+position = Vector2(210, 0)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_4_0" parent="." instance=ExtResource("1")]
+position = Vector2(280, 0)
+
+[node name="Tile_5_0" parent="." instance=ExtResource("1")]
+position = Vector2(350, 0)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_6_0" parent="." instance=ExtResource("1")]
+position = Vector2(420, 0)
+
+[node name="Tile_7_0" parent="." instance=ExtResource("1")]
+position = Vector2(490, 0)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_0_1" parent="." instance=ExtResource("1")]
+position = Vector2(0, 70)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_1_1" parent="." instance=ExtResource("1")]
+position = Vector2(70, 70)
+
+[node name="Tile_2_1" parent="." instance=ExtResource("1")]
+position = Vector2(140, 70)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_3_1" parent="." instance=ExtResource("1")]
+position = Vector2(210, 70)
+
+[node name="Tile_4_1" parent="." instance=ExtResource("1")]
+position = Vector2(280, 70)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_5_1" parent="." instance=ExtResource("1")]
+position = Vector2(350, 70)
+
+[node name="Tile_6_1" parent="." instance=ExtResource("1")]
+position = Vector2(420, 70)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_7_1" parent="." instance=ExtResource("1")]
+position = Vector2(490, 70)
+
+[node name="Tile_0_2" parent="." instance=ExtResource("1")]
+position = Vector2(0, 140)
+
+[node name="Tile_1_2" parent="." instance=ExtResource("1")]
+position = Vector2(70, 140)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_2_2" parent="." instance=ExtResource("1")]
+position = Vector2(140, 140)
+
+[node name="Tile_3_2" parent="." instance=ExtResource("1")]
+position = Vector2(210, 140)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_4_2" parent="." instance=ExtResource("1")]
+position = Vector2(280, 140)
+
+[node name="Tile_5_2" parent="." instance=ExtResource("1")]
+position = Vector2(350, 140)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_6_2" parent="." instance=ExtResource("1")]
+position = Vector2(420, 140)
+
+[node name="Tile_7_2" parent="." instance=ExtResource("1")]
+position = Vector2(490, 140)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_0_3" parent="." instance=ExtResource("1")]
+position = Vector2(0, 210)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_1_3" parent="." instance=ExtResource("1")]
+position = Vector2(70, 210)
+
+[node name="Tile_2_3" parent="." instance=ExtResource("1")]
+position = Vector2(140, 210)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_3_3" parent="." instance=ExtResource("1")]
+position = Vector2(210, 210)
+
+[node name="Tile_4_3" parent="." instance=ExtResource("1")]
+position = Vector2(280, 210)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_5_3" parent="." instance=ExtResource("1")]
+position = Vector2(350, 210)
+
+[node name="Tile_6_3" parent="." instance=ExtResource("1")]
+position = Vector2(420, 210)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_7_3" parent="." instance=ExtResource("1")]
+position = Vector2(490, 210)
+
+[node name="Tile_0_4" parent="." instance=ExtResource("1")]
+position = Vector2(0, 280)
+
+[node name="Tile_1_4" parent="." instance=ExtResource("1")]
+position = Vector2(70, 280)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_2_4" parent="." instance=ExtResource("1")]
+position = Vector2(140, 280)
+
+[node name="Tile_3_4" parent="." instance=ExtResource("1")]
+position = Vector2(210, 280)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_4_4" parent="." instance=ExtResource("1")]
+position = Vector2(280, 280)
+
+[node name="Tile_5_4" parent="." instance=ExtResource("1")]
+position = Vector2(350, 280)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_6_4" parent="." instance=ExtResource("1")]
+position = Vector2(420, 280)
+
+[node name="Tile_7_4" parent="." instance=ExtResource("1")]
+position = Vector2(490, 280)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_0_5" parent="." instance=ExtResource("1")]
+position = Vector2(0, 350)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_1_5" parent="." instance=ExtResource("1")]
+position = Vector2(70, 350)
+
+[node name="Tile_2_5" parent="." instance=ExtResource("1")]
+position = Vector2(140, 350)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_3_5" parent="." instance=ExtResource("1")]
+position = Vector2(210, 350)
+
+[node name="Tile_4_5" parent="." instance=ExtResource("1")]
+position = Vector2(280, 350)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_5_5" parent="." instance=ExtResource("1")]
+position = Vector2(350, 350)
+
+[node name="Tile_6_5" parent="." instance=ExtResource("1")]
+position = Vector2(420, 350)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_7_5" parent="." instance=ExtResource("1")]
+position = Vector2(490, 350)
+
+[node name="Tile_0_6" parent="." instance=ExtResource("1")]
+position = Vector2(0, 420)
+
+[node name="Tile_1_6" parent="." instance=ExtResource("1")]
+position = Vector2(70, 420)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_2_6" parent="." instance=ExtResource("1")]
+position = Vector2(140, 420)
+
+[node name="Tile_3_6" parent="." instance=ExtResource("1")]
+position = Vector2(210, 420)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_4_6" parent="." instance=ExtResource("1")]
+position = Vector2(280, 420)
+
+[node name="Tile_5_6" parent="." instance=ExtResource("1")]
+position = Vector2(350, 420)
+modulate = Color(0.96, 0.98, 0.94, 1)
+
+[node name="Tile_6_6" parent="." instance=ExtResource("1")]
+position = Vector2(420, 420)
+
+[node name="Tile_7_6" parent="." instance=ExtResource("1")]
+position = Vector2(490, 420)
+modulate = Color(0.96, 0.98, 0.94, 1)

@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://b37rake088wcn"]
+
+[ext_resource type="Script" uid="uid://tdnf3sap1exb" path="res://scripts/game.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://cuagx638uus5v" path="res://scenes/result.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://cxc0tp47sfxba" path="res://scenes/stages/stage_01.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/stages/stage_02.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/stages/stage_03.tscn" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/stages/stage_04.tscn" id="6"]
+
+[node name="Game" type="Node2D" unique_id=62645923]
+texture_filter = 1
+script = ExtResource("1")
+stages = Array[PackedScene]([ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6")])
+
+[node name="StageLabel" type="Label" parent="." unique_id=1013994597]
+offset_top = 20.0
+offset_right = 640.0
+offset_bottom = 56.0
+theme_override_colors/font_color = Color(0.2, 0.25, 0.22, 1)
+theme_override_font_sizes/font_size = 24
+text = "Màn 1 / 4"
+horizontal_alignment = 1
+
+[node name="Reload" type="Button" parent="." unique_id=1867813097]
+offset_left = 43.0
+offset_top = 16.0
+offset_right = 91.0
+offset_bottom = 64.0
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.2, 0.25, 0.22, 1)
+theme_override_colors/font_pressed_color = Color(0.16, 0.4, 0.27, 1)
+theme_override_colors/font_hover_color = Color(0.16, 0.4, 0.27, 1)
+theme_override_font_sizes/font_size = 32
+text = "↻"
+flat = true
+
+[node name="Result" parent="." unique_id=643005873 instance=ExtResource("2")]

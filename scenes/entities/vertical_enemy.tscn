@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://olx8u4yj3hw6"]
+
+[ext_resource type="Script" uid="uid://c3wd1ds1frees" path="res://scripts/vertical_enemy.gd" id="1"]
+
+[node name="VerticalEnemy" type="Node2D" unique_id=753325039]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=251195707]
+scale = Vector2(2, 2)

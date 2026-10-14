@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://do7l43mfech0h"]
+
+[ext_resource type="Script" uid="uid://dk70wfqtj0tr5" path="res://scripts/enemy.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dj3ral44emd6k" path="res://assets/sprites/moving_enemy_pixel.png" id="2"]
+
+[node name="MovingEnemy" type="Node2D" unique_id=686756084]
+script = ExtResource("1")
+moving = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=615917126]
+scale = Vector2(2, 2)
+texture = ExtResource("2")

@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://cxc0tp47sfxba"]
+
+[ext_resource type="Script" uid="uid://bwrc8jj78paqk" path="res://scripts/stage.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/floor.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/entities/player.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/entities/star.tscn" id="4"]
+
+[node name="Stage1" type="Node2D" unique_id=1575627503]
+script = ExtResource("1")
+
+[node name="Floor" parent="." unique_id=567798256 instance=ExtResource("2")]
+
+[node name="Stars" type="Node2D" parent="." unique_id=128483637]
+
+[node name="Star1" parent="Stars" unique_id=1041477437 instance=ExtResource("4")]
+position = Vector2(280, 70)
+
+[node name="Star2" parent="Stars" unique_id=908736523 instance=ExtResource("4")]
+position = Vector2(420, 210)
+
+[node name="Star3" parent="Stars" unique_id=1251874991 instance=ExtResource("4")]
+position = Vector2(140, 350)
+
+[node name="Obstacles" type="Node2D" parent="." unique_id=1608256017]
+
+[node name="Enemies" type="Node2D" parent="." unique_id=1304021171]
+
+[node name="Player" parent="." unique_id=407689276 instance=ExtResource("3")]
+position = Vector2(70, 70)

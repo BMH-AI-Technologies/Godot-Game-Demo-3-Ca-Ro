@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://cuagx638uus5v"]
+
+[sub_resource type="StyleBoxFlat" id="Normal"]
+bg_color = Color(0.16, 0.34, 0.25, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.1, 0.22, 0.16, 1)
+
+[sub_resource type="StyleBoxFlat" id="Hover"]
+bg_color = Color(0.21, 0.43, 0.32, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.1, 0.22, 0.16, 1)
+
+[sub_resource type="StyleBoxFlat" id="EndPanel"]
+content_margin_left = 24.0
+content_margin_top = 24.0
+content_margin_right = 24.0
+content_margin_bottom = 24.0
+bg_color = Color(0.16, 0.34, 0.25, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.1, 0.22, 0.16, 1)
+
+[node name="Result" type="CanvasLayer" unique_id=1313805507]
+
+[node name="Button" type="Button" parent="." unique_id=698556713]
+visible = false
+offset_left = 140.0
+offset_top = 270.0
+offset_right = 500.0
+offset_bottom = 374.0
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(1, 0.98, 0.88, 1)
+theme_override_colors/font_pressed_color = Color(1, 0.98, 0.88, 1)
+theme_override_colors/font_hover_color = Color(1, 0.98, 0.88, 1)
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("Normal")
+theme_override_styles/pressed = SubResource("Hover")
+theme_override_styles/hover = SubResource("Hover")
+text = "Bạn đã thua!
+Chơi lại"
+
+[node name="EndMenu" type="PanelContainer" parent="." unique_id=2061695847]
+offset_left = 110.0
+offset_top = 250.0
+offset_right = 530.0
+offset_bottom = 394.0
+theme_override_styles/panel = SubResource("EndPanel")
+
+[node name="Message" type="Label" parent="EndMenu" unique_id=1022403820]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.98, 0.88, 1)
+theme_override_font_sizes/font_size = 24
+text = "Giờ bạn hãy thử tạo màn thứ 5 đi"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2

@@ -1,0 +1,7 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Nhật ký kiểm tra cục bộ.
+*.log
+
